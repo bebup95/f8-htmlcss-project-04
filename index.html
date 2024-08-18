@@ -4,8 +4,82 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Document</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Sora:wght@100..800&display=swap"
+            rel="stylesheet"
+        />
         <link rel="stylesheet" href="./assets/css/reset.css" />
         <link rel="stylesheet" href="./assets/css/styles.css" />
     </head>
-    <body></body>
+    <body>
+        <header class="header">
+            <div class="container">
+                <div class="header-inner">
+                    <div class="header--logo">
+                        <a href="#!">
+                            <img src="./assets/img/Logo.svg" alt="Shine" />
+                        </a>
+                    </div>
+                    <nav class="navbar">
+                        <ul class="navbar__list">
+                            <li>
+                                <a href="#!" class="navbar__item active"
+                                    >Home</a
+                                >
+                            </li>
+                            <li>
+                                <a href="#!" class="navbar__item">Services</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="navbar__item">About</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="navbar__item">Doctors</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="header--group-btn">
+                        <a href="#!" class="log-in">Log In</a>
+                        <a href="#!" class="sign-in btn">Sign Up</a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main>
+            <!-- hero -->
+            <section class="hero">
+                <div class="container">
+                    <div class="hero-inner">
+                        <section class="booking">
+                            <h1 class="booking__title line-clamp">
+                                Exceptional dental care for all ages.
+                            </h1>
+                            <p class="booking__desc line-clamp">
+                                Exceptional dental care for all ages. Your great
+                                smile begins with a great dentist.
+                            </p>
+                            <div class="booking__link">
+                                <a href="#!" class="btn">Book Online</a>
+                                <a href="#!">or call (123) 456-7890</a>
+                            </div>
+                        </section>
+                        <div class="hero__img">
+                            <img
+                                src="./assets/img/hero-img.jpg"
+                                alt="hero"
+                                class="hero__img--item"
+                            />
+                            <img
+                                src="./assets/img/hero-img02.jpg"
+                                alt="hero"
+                                class="hero__img--item"
+                            />
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </body>
 </html>
