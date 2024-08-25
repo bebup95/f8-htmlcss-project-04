@@ -708,3 +708,53 @@ a {
     transform: scale(1.15);
     transition: all 0.3s;
 }
+
+/* appointment */
+
+.appointment {
+    margin: 170px auto;
+    padding: 100px 0;
+    background-color: #f6fbff;
+    width: 1170px;
+}
+
+.appointment__inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 38px;
+    flex-direction: column;
+}
+
+.appointment__heading {
+    width: 813px;
+    color: var(--heading-color);
+    font-size: 5rem;
+    font-weight: 600;
+    line-height: 1.2; /* 120% */
+    letter-spacing: -1px;
+    position: relative;
+}
+
+.appointment__heading::after {
+    content: "";
+    position: absolute;
+    left: 41%;
+    bottom: -18px;
+    display: block;
+    width: 136px;
+    height: 2px;
+    flex-shrink: 0;
+    background: var(--primary-color);
+    margin-top: 10px;
+}
+
+.appointment__desc {
+    width: 617px;
+    color: var(--desc-color);
+    font-size: 1.6rem;
+    font-weight: 300;
+    line-height: 1.75; /* 175% */
+    text-align: center;
+}
+
