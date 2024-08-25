@@ -20,7 +20,7 @@ html {
 body {
     font-family: "Sora", sans-serif;
     font-size: 1.6rem;
-    height: 10000px;
+    /* height: 10000px; */
 }
 
 /* common */
@@ -758,3 +758,140 @@ a {
     text-align: center;
 }
 
+/* footer */
+
+.footer {
+    margin-top: 100px;
+    padding-top: 100px;
+    background-color: #10375c;
+}
+
+.footer__inner {
+    display: flex;
+    gap: 78px;
+}
+
+.list-support {
+    display: flex;
+    gap: 78px;
+}
+
+.footer__desc {
+    width: 336px;
+    color: #a9b3bb;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.75; /* 175% */
+}
+
+.footer__title {
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 1.75; /* 175% */
+    margin-bottom: 20px;
+}
+
+.footer__title:last-of-type {
+    margin-top: 28px;
+}
+
+.footer li > a {
+    width: 134px;
+    color: #a9b3bb;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.86; /* 185.714% */
+    text-wrap: nowrap;
+}
+
+.footer__subscribe {
+    width: 273px;
+    color: #a9b3bb;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.86; /* 185.714% */
+}
+
+.footer li + li {
+    margin-top: 10px;
+}
+
+.footer__social {
+    display: flex;
+    column-gap: 10px;
+    margin-bottom: 28px;
+}
+
+.footer__social-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    color: #2e80ce;
+    background: #fff;
+    transition: 0.25s;
+}
+
+.footer__social-btn:hover {
+    background: #2e80ce;
+    color: #fff;
+}
+
+.footer-form {
+    display: flex;
+    column-gap: 12px;
+    margin-top: 10px;
+}
+
+.footer-form__input {
+    width: 212px;
+    height: 46px;
+    padding: 0 10px;
+    outline: none;
+    border: 1px solid #406181;
+    border-radius: 4px;
+    color: #fff;
+    background: transparent;
+}
+
+.footer-form__input::placeholder {
+    font-size: 1.4rem;
+    line-height: 1.86;
+    color: #9ca8b1;
+}
+
+.footer-form__submit {
+    --height: 46px;
+
+    min-width: 108px;
+    border-radius: 4px;
+    font-size: 1.4rem;
+    border: none;
+}
+
+.footer__copyright {
+    margin-top: 28px;
+    padding-bottom: 42px;
+    border-top: 1px solid #406181;
+}
+
+.footer__copyright::before {
+    content: "";
+    display: block;
+    width: 1170px;
+    height: 1px;
+    flex-shrink: 0;
+    background: #2e80ce;
+    margin-bottom: 20px;
+}
+
+.footer__copyright-text {
+    text-align: center;
+    color: #aab3ba;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.86; /* 185.714% */
+}
