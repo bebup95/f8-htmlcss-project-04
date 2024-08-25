@@ -546,3 +546,57 @@ a {
     transform: scale(1.15);
     transition: all 0.3s;
 }
+
+/* link */
+
+.link {
+    padding-top: 265px;
+}
+
+.link__inner {
+    display: flex;
+    background-color: #2e80ce;
+    gap: 160px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 427px;
+}
+
+.link__img {
+    position: absolute;
+    left: 70px;
+    bottom: 0px;
+}
+
+.link__right {
+    position: absolute;
+    right: 70px;
+}
+
+.link__title {
+    width: 489px;
+    color: #fff;
+    font-size: 5rem;
+    font-weight: 600;
+    line-height: 1.2; /* 120% */
+    letter-spacing: -1px;
+    text-wrap: wrap;
+}
+
+.link__desc {
+    width: 586px;
+    color: #fff;
+    font-size: 1.8rem;
+    font-weight: 300;
+    line-height: 1.67; /* 166.667% */
+    margin-top: 18px;
+}
+
+.link__cta-list {
+    margin-top: 38px;
+}
+
+.link__cta:first-child {
+    margin-right: 28px;
+}
